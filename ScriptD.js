@@ -12,6 +12,7 @@ function guardarRegistro() {
             <td>${Apellidos}</td>
             <td>${Cedula}</td>
             <td>${Edad}</td>`;
+            
         document.getElementById("nombre").value = "";
         document.getElementById("apellido").value = "";
         document.getElementById("cedula").value = "";
